@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhyno EV</title>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\Manisha\OneDrive\Pictures\Copy of Copy of Logo with imagine initiate inspire.jpeg" alt="Rhyno EV Logo" >
+        </div>
+        <nav>
+            <ul>
+                <li><a href="front page.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a>
+                    <ul class="dropdown">
+                        <li><a href="product1.html">SE03 Lite</a></li>
+                        <li><a href="product2.html">SE03</a></li>
+                        <li><a href="product3.html">SE03 Max</a></li>
+                        <li><a href="compare.html">Compare All</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="prebook.html">Pre-book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <marquee scrollamount="20"
+    white-space= "nowrap" >
+    <img src="C:\Users\Manisha\Downloads\rhyno final.95.png "alt="img" width="650">
+    <img src="C:\Users\Manisha\Downloads\ChatGPT Image Apr 16, 2025, 05_29_09 PM.png" alt="img 2"width="590">
+    <img src="C:\Users\Manisha\Downloads\ChatGPT Image Apr 16, 2025, 05_34_28 PM.png" alt="img 3" width="590">
+</marquee>
+    <main>
+        <section class="hero">
+            <h1>Let's Elevate Your Ride Experience With Rhyno – Where Superiority Meets <span id="changing-word">Style</span>.</h1>
+            <div class="book">
+                <nav> <a href="prebook.html"><button>Prebook Now!</button></a></nav>
+            </div>
+        </section>
+        
+        <section class="usps">
+            <h2>Our USP</h2>
+           
+            <div class="carousel">
+                <!-- Carousel items will be populated by JavaScript -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Website Policy</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Rentals</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://instagram.com" target="_blank"><img src="https://imgs.search.brave.com/kgdtgqUZQdNYzMKhbVXC5vthlFLPMJ0IOJAdFjEIRuk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2RiYmJiZDA4/NTBkNWQ0ZmQ3NDE5/OGUxOGI4NzE5ZDI0/Zjk0M2ExMDkzZmJm/ODA0MmJiMzkwZjMy/ZDM4YWVkOS93d3cu/aW5zdGFncmFtLmNv/bS8" alt="Instagram"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="https://imgs.search.brave.com/B3dmoKTAgUkkbrvzAxFg_MfHAm5WmWy0N-4kH1AGWOo/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGE1YzZjOWNj/NmNiODQ4NzI0ODg1/MGY5ZGQ2YzhjZTRm/N2NjOGIzZjc1NTlj/NDM2ZGI5Yjk3ZWI1/YzBmNzJmZS93d3cu/bGlua2VkaW4uY29t/Lw" alt="LinkedIn"></a>
+        </div>
+    </footer>
+</head>
+    <style>body {
+        font-family: 'Lato', 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+    }
+    
+    header {
+        background-color: #1e1e1e;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+        font-size: 50;
+    }
+    
+    header .logo img {
+        width: 300px;
+    }
+
+    img {
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1em;
+    }
+    
+    nav ul li {
+        position: relative;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    
+    nav ul .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #252525;
+        top: 100%;
+        left: 0;
+        list-style: none;
+        padding: 0.5em;
+    }
+    
+    nav ul .dropdown li a {
+        padding: 0.5em 1em;
+    }
+    
+    nav ul li:hover .dropdown {
+        display: block;
+    }
+    
+    .hero {
+        text-align: center;
+        padding: 2em;
+        background-color: #FFF225;
+    }
+    
+    .hero h1 {
+        font-size: 2em;
+    }
+    .book{
+            text-align: center;
+            margin-top: 2em;
+        }
+        .book button {
+            background-color: #f8b400;
+            color: rgb(0, 0, 0);
+            border: none;
+            padding: 1em 2em;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+        .book button:hover {
+            background-color: #d79a00;
+        }
+    .usps {
+        padding: 2em;
+        background-color: #FFF225;
+    }
+    
+    .usps h2 {
+        text-align: center;
+    }
+    
+    .carousel {
+        display: flex;
+        overflow-x: auto;
+        gap: 1em;
+    }
+    
+    footer {
+        background-color: #252525;
+        color: white;
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    footer ul {
+        list-style: none;
+        display: flex;
+        gap: 1em;
+    }
+    
+    footer ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    footer .social-icons a img {
+        width: 24px;
+        margin: 0 0.5em;
+    }</style>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const words = ['Style', 'Elegance', 'Minimalism', 'Comfort'];
+        let index = 0;
+    
+        const changingWordElement = document.getElementById('changing-word');
+        setInterval(() => {
+            index = (index + 1) % words.length;
+            changingWordElement.textContent = words[index];
+        }, 3000);
+    
+        const carouselItems = [
+            "LFP Battery: Rhyno is equipped with Lithium Iron Phosphate (LFP) batteries...",
+            "Wider tyres: Now, say goodbye to skidding and embrace the leaning turns...",
+            "Range prediction: Many budget-friendly electric scooters overlook this crucial feature...",
+            "Extraordinary Experience: Rhyno is more than just a mode of transportation...",
+            "Rugged and simple Design: We’ve had enough of the EVs looking and feeling like fragile plastic toys..."
+        ];
+    
+        const carouselElement = document.querySelector('.carousel');
+        carouselItems.forEach(item => {
+            const div = document.createElement('div');
+            div.className = 'carousel-item';
+            div.textContent = item;
+            carouselElement.appendChild(div);
+        });
+    });</script>
+</body>
+</html>
